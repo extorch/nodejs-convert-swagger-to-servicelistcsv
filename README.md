@@ -1,5 +1,5 @@
 # nodejs-convert-swagger-to-servicelistcsv
 
-Called by:
-
-node app.js convert --in="{path-to-input-file}" --out="{path-to-output-file}"
+In root folder:
+npm install
+node app.js convert --in="{path-to-input-file}.json" --out="{path-to-output-file}.csv"
